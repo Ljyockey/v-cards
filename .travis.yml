@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: kPLLPeerYHVKP0XBvbzhetF7Ja29+Euke+FsgCHzBdb97ktgu4KKTsdwGXIq/t4mxlMEnE3xlKSCB/LmT+EMN8KwZSc4xkT0SBRMBPCl6gcp9v7NUYIVgCb0pGSAfy8e99plAUsr+dtIjDSxr3ziMaHnPRlElVEIyS4jXwpOWsc0yX+bAgOm2lkRoKXLm1JK4do1k4to4UHU0T0dJi6zoMFGXR5/raDiyRiB8PPQ2W1Tnf9VUMQtHZa/fUx20op2TPILnv/5Z4CQsxT1z+Xs8VHUstTM77vCVzmKfx4MSA2JO3EfutfkwchPuBdJm/QXRyZ/3VFI5WNd2U7ryHe9zSa7wRlDhQAlN+EBYfu7w1VtsTyVJ/3JoiwB7dgPewY0prRpdcmxt+/SjJR4x2MWwEmdkE1VmYW3bHjEPjXMHsVWN8IU7pFrK9MX1zk8QITxQLIvOwb8/nbt9e/j9kdZ51ZzkWVd1ECQQkoZC3eake+96Au8+Y3JSL5pYrTpBKicRhn6GG33OaVvSsEV8atzf8zoOv7iAmP7Pv9AiNgpH9oF7l5vgDYwi+YvSWQI3YRm0mwY2SiEjWPUtRjqVa9yi/BIf03qpmzGCr2hY5DjY4czndsm8OIB5NQoBfAJexxh/TfsFOwBBCm89oLZsGoXheZShVPWu4u2EiPJunUuR0k=
+  app: v-cards
+  on:
+    repo: Ljyockey/v-cards
